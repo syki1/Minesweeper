@@ -1,0 +1,41 @@
+body
+{
+	margin: 0;
+	background-color: #26282E;
+	color: #209781;
+	font-size: 28px;
+	text-align: center;
+}
+
+.field
+{
+	width: 30px;
+	height: 30px;
+	background-color: gray;  /* 606060 */
+	color: black;
+	display: inline-block;
+	box-shadow: 2px 2px;
+	color: #16181E;
+	border: 1px solid black;
+	transition: all .2s ease-in-out;
+}
+
+.field:hover
+{
+	cursor: pointer;
+	background-color: #555555;
+}
+
+.board
+{
+	width: 390px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 3px dotted #13233A;
+	padding: 25px;
+}
+
+.score
+{
+	padding-top: 25px;
+}
